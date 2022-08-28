@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: aqua;
+}
+ul{
+    border: 2px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    background-color: black;
+    height:39px;
+    list-style: none;
+    line-height: 36px;
+
+}
+li{
+    float: left;
+    border-right: 1px solid blue;
+  
+     
+
+
+}
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 0 28px;
+    color: white;
+   
+}
+li a:hover{
+    background-color: blue;
+    /* color: rgba(255, 255, 255, 0.582); */
+}
